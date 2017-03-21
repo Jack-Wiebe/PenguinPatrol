@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Assets/Scenes/AsstinScene.unity
+- path: Assets/Assets/Scenes/Neil's Scene.unity
   isLoaded: 1
   isActive: 1
