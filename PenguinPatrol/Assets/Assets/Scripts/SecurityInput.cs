@@ -26,11 +26,13 @@ public class SecurityInput : MonoBehaviour {
 				switch (tag) 
 				{
 					case "SecurityButton":
-						Debug.Log("THATS A BUTTON YEAHHHHHH");
+						hit.transform.GetComponent<ButtonMove>().StartMove();
+						//Debug.Log("THATS A BUTTON YEAHHHHHH");
 						break;
 
 					case "SecurityLever":
-						Debug.Log("THATS A LEVER YEAHHHHHH");
+						hit.transform.GetComponent<HandleRotate>().StartMove();
+						//Debug.Log("THATS A LEVER YEAHHHHHH");
 						break;
 
 					default:
